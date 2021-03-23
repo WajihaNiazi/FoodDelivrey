@@ -12,7 +12,7 @@ const foods = [
     {id: "6", image: require('../assets/sandwich.jpg'), name: "Sandwich", price: "20$", detail:  "A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type." },
 ];
 
-export default function FoodItems({name, image, price, detail}) {
+export default function Favorite({name, image, price, detail}) {
   return (
     <TouchableOpacity style={{flex: 1}}>
         <FlatList 
